@@ -1,0 +1,24 @@
+{
+  "name": "sd-server",
+  "version": "1.0.0",
+  "description": "A web application for SD The God",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js", 
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RyanWhit18@github.com/RyanWhit18/sdthegod-ui.git"
+  },
+  "keywords": [
+    "server",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanWhit18/sdthegod-ui/issues"
+  },
+  "homepage": "https://github.com/RyanWhit18/sdthegod-ui#readme"
+}
