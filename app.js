@@ -1,13 +1,15 @@
-const http = require('http');
-const port = process.env.PORT || 3000
+/**** Import Libraries ****/
+const express = require('express');
+const routes = require('./routes/index');
+const path = require('path');
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello, World!');
-  });
+/**** Set Up ****/
+const app = express();
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+app.use(express.static('public'));
 
+/**** Routing ****/
+app.use('/', routes);
 
-server.listen(port, () => {
-    console.log(`Server running at port `+port);
-});
+module.exports = app;
