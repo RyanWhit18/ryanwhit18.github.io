@@ -1,0 +1,30 @@
+{
+  "name": "sdthegod-api",
+  "version": "1.0.0",
+  "description": "Website for SD The God",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RyanWhit18@github.com/RyanWhit18/sdthegod-api.git"
+  },
+  "keywords": [
+    "server",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanWhit18/sdthegod-api/issues"
+  },
+  "homepage": "https://github.com/RyanWhit18/sdthegod-api#readme"
+}
