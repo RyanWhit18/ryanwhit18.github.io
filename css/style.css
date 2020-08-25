@@ -897,7 +897,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 16, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 }
 
@@ -1242,7 +1242,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 261, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
 }
 
