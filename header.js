@@ -1,12 +1,19 @@
 document.write('<header>'+
-'<div class="header-area">'+
-'<div id="header" class="main-header-area">'+
+'<div class="header-area ">'+
+'<div id="sticky-header" class="main-header-area">'+
 '<div class="container-fluid">'+
 '<div class="header_bottom_border">'+
 '<div class="row align-items-center">'+
-'<div class="col-xl-3 col-lg-2"></div>'+
+'<div class="col-xl-3 col-lg-2">'+
+'<div class="logo">'+
+'<a href="/">'+
+'<img src="img/logo.png" alt="">'+
+'</a>'+
+'</div>'+
+'</div>'+
 '<div class="col-xl-6 col-lg-7">'+
-'<div class="main-menu d-none d-lg-block">'+
+'<div class="main-menu  d-none d-lg-block">'+
+// Navigation Menu Here
 '<nav>'+
 '<ul id="navigation">'+
 '<li><a class="active" href="/">Home</a></li>'+
@@ -21,15 +28,9 @@ document.write('<header>'+
 '<div class="col-xl-3 col-lg-3 d-none d-lg-block">'+
 '<div class="social_icon text-right">'+
 '<ul>'+
-'<li>'+
-'<a href="#"> <i class="fa fa-facebook"></i> </a>'+
-'</li>'+
-'<li>'+
-'<a href="#"> <i class="fa fa-twitter"></i> </a>'+
-'</li>'+
-'<li>'+
-'<a href="#"> <i class="fa fa-instagram"></i> </a>'+
-'</li>'+
+'<li><a href="#"> <i class="fa fa-facebook"></i> </a></li>'+
+'<li><a href="#"> <i class="fa fa-twitter"></i> </a></li>'+
+'<li><a href="#"> <i class="fa fa-instagram"></i> </a></li>'+
 '</ul>'+
 '</div>'+
 '</div>'+
@@ -38,6 +39,7 @@ document.write('<header>'+
 '</div>'+
 '</div>'+
 '</div>'+
+''+
 '</div>'+
 '</div>'+
 '</div>'+

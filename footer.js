@@ -77,11 +77,11 @@ document.write('<footer class="footer">'+
 '<div class="col-xl-5 col-md-6">'+
 '<div class="footer_links">'+
 '<ul>'+
-'<li><a href="index">home</a></li>'+
-'<li><a href="about">about</a></li>'+
-'<li><a href="track">tracks</a></li>'+
-'<li><a href="blog">blog</a></li>'+
-'<li><a href="contact">contact</a></li>'+
+'<li><a class="active" href="/">Home</a></li>'+
+'<li><a href="about">About</a></li>'+
+'<li><a href="track">Tracks</a></li>'+
+'<li><a href="video">Videos</a></li>'+
+'<li><a href="contact">Contact</a></li>'+
 '</ul>'+
 '</div>'+
 '</div>'+
