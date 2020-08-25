@@ -9,7 +9,7 @@ document.write('<header>'+
 '<div class="main-menu d-none d-lg-block">'+
 '<nav>'+
 '<ul id="navigation">'+
-'<li><a class="active" href="index">Home</a></li>'+
+'<li><a class="active" href="/">Home</a></li>'+
 '<li><a href="about">About</a></li>'+
 '<li><a href="track">Tracks</a></li>'+
 '<li><a href="video">Videos</a></li>'+
