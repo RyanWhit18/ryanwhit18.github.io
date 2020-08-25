@@ -868,14 +868,14 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
   .header-area {
-    padding-top: 0;
+    padding-top: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_header.scss */
   .header-area {
-    padding-top: 20px;
+    padding-top: 0;
   }
 }
 
