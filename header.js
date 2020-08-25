@@ -7,7 +7,7 @@ document.write('<header>'+
 '<div class="col-xl-3 col-lg-2">'+
 '<div class="logo">'+
 '<a href="/">'+
-'<img src="img/logo.png" alt="">'+
+'<img src="" alt="">'+
 '</a>'+
 '</div>'+
 '</div>'+
